@@ -10,9 +10,9 @@ public class SwitchMain {
 		
 		//sd.isVowel('e');
 		
-		sd.isVowel("deepika");
+		//sd.isVowel("deepika");
 		
-		
+		sd.monthsOfYear(2);
 	}
 
 }
