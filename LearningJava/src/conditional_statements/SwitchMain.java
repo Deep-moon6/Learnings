@@ -1,4 +1,4 @@
-package conditions;
+package conditional_statements;
 
 public class SwitchMain {
 
