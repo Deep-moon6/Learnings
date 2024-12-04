@@ -31,10 +31,11 @@ public class ForDemo {
 	}
 	
 	public void asterisks(int desirednum){
-		for(int i = 1; i<=desirednum; i++){
-			String ast = "*";
-			System.out.println(ast);
-			
+		for(int i = desirednum; i > 0; i--){
+			for(int j = i;j >0;j--) {
+				System.out.print("*");
+			}
+			//System.out.println("");
 		}
 	}
 }

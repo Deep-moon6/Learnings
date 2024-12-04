@@ -6,15 +6,15 @@ public class ForMain {
 		
 		ForDemo fd = new ForDemo();
 		
-		//fd.basicFor(10);
+		fd.basicFor(10);
 		
-		//fd.iterateArray();
+		fd.iterateArray();
 		
-//		fd.evenPrint(20);
+		fd.evenPrint(20);
 
-//		fd.tablePrints(9);
+		fd.tablePrints(9);
 		
-		fd.asterisks(2);
+		fd.asterisks(3);
 	}
 
 }
