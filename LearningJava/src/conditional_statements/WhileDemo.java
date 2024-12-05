@@ -83,4 +83,35 @@ public class WhileDemo {
 		}
 		System.out.println(sum);
 	}
+	
+	public void palindrome(String name) {
+		
+		String rev = "";
+		int len = name.length() - 1;
+		
+		while(len >= 0) {
+			
+			rev += name.charAt(len);
+			len--;
+		}
+		
+		System.out.println("The original string is "+name);
+		System.out.println("The reverse string is "+rev);
+		
+		if(rev.equals(name)) {
+			System.out.println("Is palindrome");
+		}
+		else {
+			System.out.println("Not Palindrome");
+		}
+	}
+
+	public void table(int num) {
+		int i = 1;
+		while(i <= 10) {
+			
+			System.out.println(num + " * " + i + " = " + num*i);
+			i++;
+		}
+	}
 }

@@ -13,6 +13,8 @@ public class WhileMain {
 //		wm.fibonacci(9);
 //		wm.countDigit(36987);
 //		wm.sumOfDigits(325);
+//		wm.palindrome("nayan");
+//		wm.table(11);
 	}
 
 }
